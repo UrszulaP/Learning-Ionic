@@ -14,6 +14,7 @@
           <ion-card-header>
             <ion-card-title>New Expense</ion-card-title>
           </ion-card-header>
+          
           <ion-card-content>
             <ion-item>
               <ion-label position="floating">Expense Reason</ion-label>
@@ -23,6 +24,16 @@
               <ion-label position="floating">Expense Amount</ion-label>
               <ion-input type="number"></ion-input>
             </ion-item>
+            
+            
+            <div class="ion-text-right">
+              <ion-button fill="outline" color="danger">
+                <ion-icon name="close" slot="start"></ion-icon>Clear
+              </ion-button>
+              <ion-button>
+                <ion-icon name="add" slot="start"></ion-icon>Add Expense
+              </ion-button>
+            </div>
           </ion-card-content>
         </ion-card>
       </ion-col>
